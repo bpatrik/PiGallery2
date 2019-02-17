@@ -1,12 +1,19 @@
+/* Override some of the bootstrap defaults */
+.breadcrumb {
+  padding: 0.75rem 1rem 0;
+  float: left;
+}
+
 .nav-container {
-  position: relative;
+  position: fixed;
+  top: 55px;
+  width: 100%;
+  background-color: #e9ecef;
 }
 
 .right-side {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
+  margin: 0.50rem 1rem 0;
+  float: right;
 }
 
 .photos-count {

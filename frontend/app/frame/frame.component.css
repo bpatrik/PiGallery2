@@ -3,7 +3,9 @@ nav {
 }
 
 .navbar {
-  margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 ng2-slim-loading-bar {

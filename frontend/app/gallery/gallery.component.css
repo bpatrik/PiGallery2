@@ -7,8 +7,7 @@ app-gallery-map {
 }
 
 .directories {
-  margin-right: 2px;
-  margin-left: 2px;
+  margin: 111px 2px 0 2px;
 }
 
 app-gallery-directory {
