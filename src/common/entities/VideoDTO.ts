@@ -1,5 +1,6 @@
 import {DirectoryDTO} from './DirectoryDTO';
 import {MediaDimension, MediaDTO, MediaMetadata} from './MediaDTO';
+import {PositionMetaData, CameraMetadata, RatingTypes} from './PhotoDTO';
 
 export interface VideoDTO extends MediaDTO {
   id: number;
@@ -10,6 +11,11 @@ export interface VideoDTO extends MediaDTO {
 
 
 export interface VideoMetadata extends MediaMetadata {
+  rating?: RatingTypes;
+  caption?: string;
+  keywords?: string[];
+  cameraData?: CameraMetadata;
+  positionData?: PositionMetaData;
   size: MediaDimension;
   creationDate: number;
   bitRate: number;
