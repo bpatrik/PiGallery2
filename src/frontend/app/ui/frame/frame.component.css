@@ -2,10 +2,6 @@ nav {
   z-index: 999;
 }
 
-.navbar {
-  margin-bottom: 20px;
-}
-
 ng2-slim-loading-bar {
   /* display: block; */
   z-index: 999999;
